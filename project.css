@@ -1,0 +1,86 @@
+a {
+    background-color: transparent;
+}
+
+.generalTitle {
+
+    color: #bb8847;
+    margin: 1.5em auto;
+    font-weight: 300;
+	 padding-left:80px;
+	 
+	 
+    
+
+}
+.carinfo{
+	
+	position: inherit;
+	background-color:white;
+	height: 120px; 
+	width:100%;
+	border:solid 3px #bb8847;
+	border-radius: 20px;
+	margin-top: 10px
+	
+	
+}
+
+body {
+	background: black;
+    font-family: "Lato", sans-serif;
+    margin: 10px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  	
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #bb8847;
+    color: #f1f1f1;
+    display: block;
+    
+}
+
+.sidenav a:hover {
+    color: black;
+    border:2px solid;
+    border-radius: 20px;
+    background: #bb8847;;
+    
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.pos{
+		position: absolute;
+		width: 500px;
+		height: auto;
+	
+}
+span{
+    float: left;
+    font-size:30px;
+    cursor:pointer;
+    position: fixed;
+	color: #bb8847;
+}
